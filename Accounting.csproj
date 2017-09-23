@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{80C015B1-426B-46EC-B244-7F674B016D26}</ProjectGuid>
+    <SchemaVersion>2.0</SchemaVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <AssemblyName>Accounting</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>false</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>false</DebugSymbols>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>pdbonly</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include=".\AccountingReferences\CrystalDecisions.CrystalReports.Engine" />
+    <Reference Include=".\AccountingReferences\CrystalDecisions.ReportSource" />
+    <Reference Include=".\AccountingReferences\CrystalDecisions.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include=".\AccountingReferences\CrystalDecisions.Shared" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Management" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\_Module_.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Vouchers\popupAccounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Singin\popupAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Employee\EmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Properties\Settings.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Client\popupClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting\AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Singin\SigninForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Singin\AccountsManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Reports\ReportFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting\popupBalanceR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting\popupAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting\AccountsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Vouchers\DepositForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\TagType.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\JournalBll.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code\AccountingDS.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.AccountingDSTableAdapters\Bank_TTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.AccountingDSTableAdapters\Cash_TTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.AccountingDSTableAdapters\CategoryTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.AccountingDSTableAdapters\COA_TTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.AccountingDSTableAdapters\Journal_TTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.AccountingDSTableAdapters\SupplierTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.AccountingDSTableAdapters\EmployeeTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.AccountingDSTableAdapters\AccountsViewTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.AccountingDSTableAdapters\getParentTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.AccountingDSTableAdapters\VoucherTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.AccountingDSTableAdapters\DailyJournalTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.AccountingDSTableAdapters\ReportTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.AccountingDSTableAdapters\BalanceSheetTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.AccountingDSTableAdapters\ProfitLossTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.AccountingDSTableAdapters\TrialBalanceTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.AccountingDSTableAdapters\Sec_TTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.AccountingDSTableAdapters\BalanceReportTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.AccountingDSTableAdapters\FixedAssetReportTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.AccountingDSTableAdapters\ClientTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.AccountingDSTableAdapters\TableAdapterManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.bin.Debug\BalanceReportCR.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.bin.Debug\CachedBalanceReportCR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.bin.Debug\BalanceSheetCR.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.bin.Debug\CachedBalanceSheetCR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting\popupBrowse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\AccountsBLL.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Singin\popupEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting\Program.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\SupplierBll.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.Bll\Right.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.Bll\SecBll.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.Bll\Check.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Type.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\CashBll.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\BankBll.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Supplier\SupplierForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Properties\Resources.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.bin.Debug\fixedCR.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.bin.Debug\CachedfixedCR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.bin.Debug\TrialBalanceCR.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.bin.Debug\CachedTrialBalanceCR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Vouchers\WithdrawalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting\SupplierCR.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting\CachedSupplierCR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\EmployeeBll.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Supplier\popupSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting\popupSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Journal\JournalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Employee\popupEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Client\ClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\ReportType.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.Code.Bll\ReportBll.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\ClientBll.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Mode.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\VoucherBll.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.bin.Debug\JournalCR.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.bin.Debug\CachedJournalCR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.bin.Debug\reportTest.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting.bin.Debug\CachedreportTest.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting\AccountsCR.cs" />
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\Accounting\CachedAccountsCR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C:\Users\windows7\Documents\Visual Studio 2008\Projects\Accounting\_PrivateImplementationDetails_{872C86BB-7B68-47C8-8D6E-5871256AF993}.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
